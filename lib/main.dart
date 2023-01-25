@@ -10,11 +10,20 @@ void main() => runApp(
             centerTitle: true,
           ),
           body: Center(
-            child: Text("afankf"),
+            child: Text(
+              "afankf",
+              style: TextStyle(
+                fontSize: 40.0,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 4.0,
+                color: Colors.grey,
+                fontFamily: "Raleway",
+              ),
+            ),
           ),
           floatingActionButton: FloatingActionButton(
             child: Text("click me"),
-            onPressed: (){},
+            onPressed: () {},
             hoverColor: Colors.red.shade100,
             backgroundColor: Colors.green,
           ),
